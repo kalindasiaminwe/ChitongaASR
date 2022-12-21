@@ -1,11 +1,12 @@
 # Overview
-This repository contains resources and tools related to a NLP and ML project, which aims to develop an automatic speech recognition system(ASR) for ChiTonga, a low resource langauge in Zambia. 
+This repository contains resources and tools related to a NLP and ML project, which aims to develop an automatic speech recognition system(ASR) for 5hrs of speechdata in ChiTonga, a low resource langauge in Zambia. 
 Some of the tasks that I worked on include:  
 1. Text preprocessing: This involved cleaning and preparing text data for analysis and model training. 
 2. Audio preprocessing: This involved cleaning and preparing audio data model training. 
 3. Model training and evaluation: This involved training a ML model on a dataset and evaluating its performance using metrics such as accuracy, wer and cer. This included tasks such as selecting an appropriate model type, tuning hyperparameters, and using cross-validation to assess model generalization.
 4. Inference and prediction: Once a model has been trained and evaluated, it can be used to make predictions on new data. This  included tasks such as generating text using a demo language model built using Gradio python librabry.
 
+The finetuned models can be found here: [Whisper-small-Tonga](https://huggingface.co/kalisia/whisper-small-tonga_5hrs) & [wav2vec2-xls-r-300m-tonga](https://huggingface.co/kalisia/wav2vec2-xls-r-300m-tonga-test_v2).  
 The datasets used in this project are availabe here: [Zambezi Voice](https://github.com/unza-speech-lab/zambezi-voice). 
 To contribute, please visit the [Zambezi Voice](https://github.com/unza-speech-lab/zambezi-voice) for more details.  
 
